@@ -1,0 +1,49 @@
+h1 {
+    color: #8a2be2;
+}
+.Heading{
+ 
+    background-color: #d389d3;
+}
+.Games{
+
+    background-color: #9400d3;
+
+    display:flex;
+    justify-content: space-between;
+}
+.footer{
+    margin-top: 60px;
+    display:flex;
+    justify-content:space-between;
+    margin-left: 90%;
+    border: solid;
+    width: 100px;
+
+    
+}
+a:link{
+color:black
+
+}
+a:visited{
+    color:red
+}
+.item{
+    position:relative
+}
+.item p{
+position: absolute;
+top: 30%;
+left:30%;
+opacity:0
+}
+.item:hover p {
+opacity:1
+}
+.item:hover img {
+    opacity:0.8
+    }
+.item:hover {
+    transform: scale(1.3);
+}
